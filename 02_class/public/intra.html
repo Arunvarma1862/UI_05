@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main {
+        display: grid;
+        grid-template-columns: 4fr 4fr 4fr;
+        column-gap: 20px;
+      }
+      div {
+        border: 1px solid blue;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        width: 300px;
+        background-color: white;
+        color: black;
+      }
+      nav{
+        margin: 50px;
+        font-size: 35px;
+      }
+      a{
+        text-decoration: none;
+        margin-right: 50px;
+      }
+      /* a:visited{
+        color: green;
+      }
+      a:active{
+        color: yellow;
+      } */
+    div:target{
+        background-color: black;
+        color: white;
+    }
+      
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="#html">HTML</a>
+      <a href="#css">CSS</a>
+      <a href="#js">JavaScript</a>
+    </nav>
+    <main>
+      <div id="html" >
+        <h2>HTML</h2>
+        <ul>
+          <li>Lesson1</li>
+          <li>Lesson2</li>
+          <li>Lesson3</li>
+          <li>Lesson4</li>
+          <li>Lesson5</li>
+        </ul>
+      </div>
+      <div id="css">
+        <h2>CSS</h2>
+        <ul>
+          <li>Lesson1</li>
+          <li>Lesson2</li>
+          <li>Lesson3</li>
+          <li>Lesson4</li>
+          <li>Lesson5</li>
+        </ul>
+      </div>
+      <div id="js">
+        <h2>JS</h2>
+        <ul>
+          <li>Lesson1</li>
+          <li>Lesson2</li>
+          <li>Lesson3</li>
+          <li>Lesson4</li>
+          <li>Lesson5</li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

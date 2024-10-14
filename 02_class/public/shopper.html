@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="/02_class/public/images/shopper.png" />
+  </head>
+
+  <style>
+    body {
+      margin: 10;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+   
+    }
+    header {
+      font-size: 25px;
+      margin-top: 10px;
+      padding-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-size: 30px;
+    }
+    .banner {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+    }
+    .nav span {
+      padding-right: 20px;
+    }
+    .icons span {
+      padding-right: 20px;
+    }
+    article {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .light {
+      color: yellow;
+    }
+    footer {
+      background-color: rgb(26, 25, 25);
+      min-height: 350px;
+      color: white;
+      border: 1px solid grey;
+      margin-top: 100px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 55px;
+    }
+    .footer-want {
+      font-size: 25px;
+      text-align: center;
+    }
+    .footer-email {
+      margin-top: 15px;
+      border: 1px solid black;
+      display: inline-block;
+      width: 300px;
+      text-align: left;
+      padding: 15px;
+      background-color: grey;
+      color: rgb(185, 185, 185);
+    }
+    .footer-subscribe {
+      border: 1px solid black;
+      padding: 15px;
+      width: 150px;
+      color: white;
+      background-color: rgb(80, 80, 80);
+    }
+    .footer-sub {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .head {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      margin-left: 50px;
+    }
+    .head span {
+      display: block;
+      margin-top: 10px;
+      color: grey;
+    }
+    .head div span:first-child {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 20px;
+    }
+    .social-media {
+      display: flex;
+      justify-content: space-between;
+      width: 150px;
+    }
+
+    .line {
+      margin-top: 50px;
+      width: 100%;
+      border: 1px solid rgb(66, 65, 65);
+    }
+    .copy {
+      display: flex;
+      justify-content: space-around;
+      margin: 10px;
+      color: grey;
+      font-size: 10px;
+    }
+    main {
+      margin-top: 10px;
+      color: white;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      /* font-size: 30px; */
+   
+    }
+
+   
+    .men{
+      background-image: url(/02_class/public/images/men-banner.avif);
+      background-size: cover;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .women{
+      background-image: url(/02_class/public/images/women-banner.avif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .kids{
+      background-image: url(/02_class/public/images/kids-banner.avif);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+    .middle{
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      position: relative;
+      top: 130px;
+      /* left: 150px; */
+    }
+    .middle-btn{
+      border: 1px solid white;
+      background-color: white;
+      font-size: 20px;
+      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      color: black;
+      padding: 5px;
+      position: relative;
+      top: 50px;
+      
+    }
+    .container {
+     margin-top: 10px;
+      height: 10vh;
+      /* width: 100%; */
+       display: flex;
+       /* flex-direction: column; */
+      justify-content: center ;  
+      align-items: center ; 
+      text-align: center;
+      color: black;
+    }
+    p{
+      width: 90%;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <header>
+      <div>
+        <span class="banner">Shopper.</span>
+      </div>
+      <div class="nav">
+        <nav>
+          <span>Home</span>
+          <span>Catlog</span>
+          <span>shop</span>
+          <span>Pages</span>
+          <span>Blog</span>
+          <span>Docs</span>
+        </nav>
+      </div>
+      <div class="icons">
+        <span class="bi bi-search"></span>
+        <span class="bi bi-person"></span>
+        <span class="bi bi-heart"></span>
+        <span class="bi bi-cart"></span>
+      </div>
+    </header>
+    <article>
+      <!-- <div>
+        ✨Happy Holiday Deals on Everything ✨ 
+      </div> -->
+      <span class="bi bi-lightning-charge-fill light"></span>
+      <span>Happy Holiday Deals on Everything</span>
+      <span class="bi bi-lightning-charge-fill light"></span>
+    </article>
+
+    <section>
+      <main>
+        <!-- <div class="main"> -->
+        <div class="men">
+          <span class="middle">Men</span>
+          <span class="middle-btn">
+            <span>shop men</span>
+            <span class="bi bi-arrow-right"></span>
+          </span>
+        </div>
+        <div class="women">
+          <span class="middle">women</span>
+          <span class="middle-btn">
+            <span>shop women</span>
+            <span class="bi bi-arrow-right"></span>
+          </span>
+        </div>
+        <div class="kids">
+          <span class="middle">kids</span>
+          <span class="middle-btn">
+            <span>shop kids</span>
+            <span class="bi bi-arrow-right"></span>
+          </span>
+        </div>
+        
+      <!-- </div> -->
+      
+      </main>
+    </section>
+    <div class="container">
+      <div>
+      <div>New Collection</div>
+      <div>Best Picks 2019</div>
+      <div>Appear, dry there darkness they're seas, dry waters thing fly midst. Beast, above fly brought Very green.</div>
+    </div>
+      </div>
+  
+    <footer>
+      <div class="footer-want">
+        <span>Want style Ideas and Treats?</span>
+      </div>
+      <div>
+        <div class="footer-sub">
+          <span class="footer-email">Enter Email *</span>
+          <span class="footer-subscribe">Subscribe</span>
+        </div>
+      </div>
+
+      <div class="head">
+        <div>
+          <span class="service-title">Shopper</span>
+          <div class="social-media">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-medium"></span>
+          </div>
+        </div>
+
+        <div>
+          <span class="service-title">Support</span>
+          <span>Contact Us </span>
+          <span>FAQs</span>
+          <span>Size Guide</span>
+          <span>Shipping & Returns</span>
+        </div>
+        <div>
+          <span class="service-title">Shop</span>
+          <span>Men's Shopping</span>
+          <span>Women's Shopping</span>
+          <span>Kids' Shopping</span>
+          <span>Discounts</span>
+        </div>
+        <div>
+          <span class="service-title">Company</span>
+          <span>Our Story</span>
+          <span>Careers</span>
+          <span>Terms & Conditions</span>
+          <span>Privacy & Cookie policy</span>
+        </div>
+        <div>
+          <span class="service-title">Contact</span>
+          <!-- <address> -->
+          <span>1-202-555-0105</span>
+          <span>1-202-555-0106</span>
+          <span>help@shopper.com</span>
+          <!-- </address> -->
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <div class="copy">
+        <div>
+          <span>&copy;2019 All rights reserved. Designed by Unvab.</span>
+        </div>
+        <div>
+          <img src="/02_class/public/images/visa.svg" alt="" />
+          <img src="/02_class/public/images/mastercard.svg" alt="" />
+          <img src="/02_class/public/images/amex.svg" alt="" />
+          <img src="/02_class/public/images/paypal.svg" alt="" />
+          <img src="/02_class/public/images/maestro.svg" alt="" />
+          <img src="/02_class/public/images/klarna.svg" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,111 @@
+JavaScript History, Versions
+
+What is JavaScript?
+
+JavaScript, a high-level, dynamic, and interpreted programming language, enabling interactive and dynamic web pages. 
+
+JavaScript is a high level programming language, all high level languages are in simple english and portable.
+
+JavaScript is interpreted programming language, javascript code is translated every time before execution. It is used interpreter as translator. This interpreter is called javascript engine.
+
+Javascript is dynamically typed programming language. 
+
+
+Developer and Initial Development
+
+Developer: JavaScript was created by Brendan Eich in 1995 while he was working for Netscape Communications Corporation.
+Purpose: The initial purpose was to develop a language that could build dynamic web pages that could react to user input without needing to reload. This was part of the broader initiative to enhance web capabilities for the Netscape Navigator browser, making it more competitive against Internet Explorer by Microsoft.
+
+Early Versions and History
+
+Mocha: The project’s original name was Mocha, later renamed to LiveScript during its development in September 1995.
+JavaScript: In December 1995, Netscape Navigator 2.0 Beta 3 introduced the language under the name JavaScript, capitalizing on the popularity of Java, although the two languages are distinct and were developed independently.
+
+
+Standardization and Evolution
+ECMAScript: To standardize JavaScript, Netscape handed it over to ECMA International, leading to the creation of the ECMAScript (ES) standard in 1997. The first edition of ECMAScript laid the groundwork for future versions.
+
+The standard of scripting languages like JavaScript is ECMAScript. ECMAScript. The full form of ECMA is European Computer Manufacturer's Association. ECMAScript is a Standard for scripting languages such as JavaScript, JScript, etc. It is a trademark scripting language specification.
+
+ES2 and ES3: Released in 1998 and 1999, respectively, these versions introduced minor improvements and new features, with ES3 being particularly notable for its regular expressions, try/catch exception handling, and more.
+
+Current Version of ECAMScript is ECMAScript2023
+ES14	ECMAScript 2023	
+
+Why JavaScript?
+
+==> JavaScript is used for developing dynamic web pages
+==> JavaScript is used for making changes during runtime time
+	Adding elements
+	Removing elements
+	Styling elements
+==> JavaScript is used for input validations
+	Reading input data and performing operations
+==> JavaScript is used for interacting with browser(browser functionality)
+==> JavaScript is used for interactiing with
+	1. Web Page
+	2. Browser
+==> Creating interactive webpages
+
+Javascript is an embeded language.
+Javascript is inserted within HTML and executed browser.
+To execute javascript, the browser required Javascript engine.
+
+List of Javascript engines
+
+1. Chakra (Micrsoft Edge)
+2. V8 (Google Chrome)
+3. SpiderMonkey (Mozilla)
+4. Javascriptcode (safari)
+
+How to include javascript within HTML?
+Javascript can be included within HTML using <script> tag.
+
+This tag can be used within,
+1. head
+2. body
+
+Syntax:
+<script>
+    javascript
+</script>
+
+Note: every statement in javascript is endwith ;
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+

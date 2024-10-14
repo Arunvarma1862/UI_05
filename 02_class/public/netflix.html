@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="icon" href="/02_class/public/images/download.png">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+      }
+      .cover {
+        
+        height: 120vh;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin: -10px;
+       
+      }
+      header{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 50px;       
+      }
+      .brand-name{
+        font-family:  monospace;
+        font-weight: bold;
+        font-size: 30px;
+        color: red;
+      }
+      .langauage{
+        border: 1px solid white;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 1);
+       
+      }
+      .btn-signin{
+        border: 1px solid red;
+        padding: 2px;
+        font-size: 20px;
+        background-color: red;
+        border-radius: 5px;
+        margin-left: 15px;
+        display: inline-block;
+        text-align: center;
+        width: 100px;
+        height: 25px;
+      }
+      section{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 120px;
+       
+       
+      }
+      .text1{
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 20px;
+      }
+      .text2{
+        font-weight: 400;
+        font-size: 20px;
+       
+      }
+      .text3{
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      main{
+        margin-top: 30px;
+      }
+      .input1{
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 18px;
+        color: rgb(199, 196, 196);
+        width: 250px;
+        border: 1px solid grey;
+        display: inline-block;
+        width: 250px;
+        text-align: left;
+        font-size: 15px;
+      }
+      input::placeholder{
+        color: white;
+      }
+      .get{
+        margin-left: 5px;
+        border: 1px solid balck;
+        background-color: red;
+        padding: 18px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      details{
+        margin-top: 50px;
+        padding: 50px;
+        background-color:rgba(0, 0, 0, 0.6);
+        color: white;
+        border: 1px solid blue;
+      
+      }
+      summary{
+        /* margin-bottom: 40px; */
+        border: 1px solid beige;
+        height: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 25px;
+        width: 50%;
+        margin:  10px auto;
+
+      }
+      summary span{
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+
+  <body background="/02_class/public/images/netflix_back.jpg">
+    <div class="cover">
+      <header>
+        <div class="brand-name">
+         <span>NETFLIX</span>
+        </div>
+        <div>
+          <span class="langauage">
+            <span class="bi bi-translate"></span>
+            <span>English </span>
+            <span class="bi bi-chevron-down"></span>
+          </span>
+          <span class="btn-signin">Sign In</span>
+        </div>
+      </header>
+      <section>
+        <div class="text1">Unlimited movies, TV shows and more</div>
+        <div class="text2">Starts at ₹149. Cancel anytime.</div>
+        <main>
+          <div class="text3">
+            Ready to watch? Enter your email to create or restart your membership.
+          </div>
+          <div>
+            <!-- <input type="email" placeholder="Email address" class="input1"> -->
+             <span class="input1">Email Address</span>
+             <span class="get">
+              <span>Get Started</span>
+              <span class="bi bi-chevron-right"></span>
+            </span>
+          </div>
+        </main>
+      </section>
+      
+    </div>
+    <details>
+      <summary>what is Netflix?<span class="bi bi-plus"></span></summary>
+      Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+    </details>
+    <details open>
+      <summary>what is Netflix?<span class="bi bi-plus"></span></summary>
+      Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+
+You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+    </details>
+  </body>
+</html>
